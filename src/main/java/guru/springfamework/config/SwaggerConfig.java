@@ -28,7 +28,7 @@ public class SwaggerConfig {//extends WebMvcConfigurationSupport {
                 .paths(PathSelectors.any())
                 .build()
                 .pathMapping("/")
-                .apiInfo(metaData()); // added this 
+                .apiInfo(metaData()); // added this
     }
 
     // need addResourceHandlers(ResourceHandlerRegistory registroy){} if using normal mvc
